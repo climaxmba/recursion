@@ -1,0 +1,22 @@
+{
+  "name": "recursion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/climaxmba/recursion.git"
+  },
+  "author": "Climax Mba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/climaxmba/recursion/issues"
+  },
+  "homepage": "https://github.com/climaxmba/recursion#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
