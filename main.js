@@ -1,18 +1,10 @@
-function mergeSort(arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) {
-  const low = 0,
-    high = arr.length - 1,
-    mid = parseInt(low + high / 2);
+function mergeSort(arr = [8, 0, 5, 3, 7, 7, 5, 9, 10]) {
+  if (arr.length <= 1) return arr;
 
-  let splitted = []
-  if (low + 1 < high) {
-    splitted.push(...mergeSort(arr.slice(low, mid)));
-    splitted.push(...mergeSort(arr.slice(mid)));
-  } else {
-    return arr;
-  }
-
-  // return merged array
-  return splitted;
+  let mid = parseInt(arr.length / 2);
+  let low = mergeSort(arr.slice(0, mid));
+  let high = mergeSort(arr.slice(mid));
+  return merge(low, high);
 }
 
-mergeSort();
+console.log(mergeSort());
