@@ -1,6 +1,6 @@
-# Recursion
+# Project: Recursion
 
-Recursion is a...
+This is a project from [TheOdinProject's curriculum]()
 
 # Pseudocode
 
@@ -12,6 +12,6 @@ _Here is a pseudocode from CS50:_
 ```
 
 ## 🛠 Tools & technologies
-- NodeJS & [Nodemon](https://nodemon.io/)
-- NPM
+- [NodeJS](https://nodejs.org) & [Nodemon](https://nodemon.io/)
+- [NPM](https://npmjs.com)
 - JavaScript Debug Terminal.
