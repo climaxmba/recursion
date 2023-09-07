@@ -1,3 +1,6 @@
+// Edit array here
+const arr = [2, 5, 1, 0, 8, 2, 8, 0, 3, 5, 7];
+
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
 
@@ -29,3 +32,6 @@ function mergeSort(arr) {
 
   return result;
 }
+
+console.log("Array to be sorted: ", arr);
+console.log("Sorted array: ", mergeSort(arr));
