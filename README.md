@@ -30,6 +30,7 @@ To try a demo, make sure you have [NodeJS](https://nodejs.org) and [NPM](https:/
 npm install
 ...
 
+# Run nodemon with npm
 npm run watch
 ...
 ```
