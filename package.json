@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon main.js"
+    "watch": "nodemon index.js"
   },
   "repository": {
     "type": "git",
